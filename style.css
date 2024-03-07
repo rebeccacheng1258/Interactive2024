@@ -1,0 +1,118 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('webzine-background.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    font-family: "proxima-nova", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+    
+}
+
+header {
+    background-color: f2c7de ; /* Adds a semi-transparent background color to the header for better readability */
+    color: #fff;
+    padding: 10px;
+    text-align: center;}
+ .active {
+    color: #f2c7de; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    font-style: italic;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.container {
+    background-color: black; 
+    opacity: 80%;
+    padding: px; 
+    width: 80%; 
+    margin: 20px auto;
+    width: 600px;
+}
+
+h1 {
+    text-align: left;
+    color: #f2f9fa; 
+    font-weight: 1000;
+    font-size: 100px;
+    font-style: italic;
+    line-height: 0.9;
+        }
+h2 {
+    font-style: italic;
+    color: #f2c7de; 
+    font-weight: 550;
+
+        }
+
+h3 {
+    text-align: left;
+    color: #f2f9fa; 
+    font-weight: 1000;
+    font-size: 60px;
+    line-height: 0.9;
+        }
+h4{
+  font-style: italic;
+  color: #f2f9fa; 
+  font-weight: 550;
+  font-size: 40px;
+
+}
+
+p {
+    line-height: 1.5;
+    color: #f2c7de; 
+        }
+h5 {
+    line-height: 1;
+    color: #cf898f; 
+    font-size: 16px;
+    font-weight: 500;
+        }
+
+
+
+.container-header {
+    display: flex; 
+    justify-content: space-between; /* Justify items evenly along the main axis */
+    align-items: center;
+    text-align: left;
+
+}
+
+.container-header h5 {
+    display: inline-block; 
+
+
+
+    
